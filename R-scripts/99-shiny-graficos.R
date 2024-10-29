@@ -145,7 +145,7 @@ grafico_config_poblacion <- list(
     columna_x = "AÑO",
     columna_y = "POBLACIÓN",
     y_axis_title = "Proyección Población",
-    group = "GENERO",
+    group = "SEXO",
     suffix = ""),
   estimacion_ocupados = list(
     datos = read_rds("data/macroeconomia/grafico_poblacion/estimacion_ocupados.rds") %>% filter(REGIÓN == "Total"),
