@@ -137,7 +137,7 @@ grafico_config_poblacion <- list(
     columna_x = "AÑO",
     columna_y = "EDAD",
     y_axis_title = "Esperanza de Vida",
-    group = "GENERO",
+    group = "SEXO",
     suffix = ""),
   proyeccion_totales = list(
     datos = read_rds("data/macroeconomia/grafico_poblacion/proyeccion_poblacion.rds"),
